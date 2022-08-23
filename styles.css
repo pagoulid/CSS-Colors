@@ -1,0 +1,35 @@
+
+body{
+    padding-top: 13rem;
+}
+
+.container{
+    width:50%;
+    height:30vh;
+    margin: auto;
+    padding-top: 1rem;
+    
+    background-color: burlywood;
+}
+/*Container Content*/
+h1,h2,h3,h4{
+    text-align: center;
+}
+h1{
+    color: blue;
+}
+
+h2{
+    color:rgb(97, 110, 254); 
+}
+/* Convert rgb(61,71,119) -> #3D4777*/
+/*Convertion Link: https://www.rgbtohex.net/*/
+h3{
+    color:#3D4777 ;
+}
+/* Convert rgb(29,16,92) -> hsl(250,70.4%,21.2%)*/
+/*Convertion Link: https://www.rapidtables.com/convert/color/rgb-to-hsl.html#:~:text=RGB%20to%20HSL%20conversion%20formula%20The%20R%2C%20G%2C,0..255%20to%200..1%3A%20R%20%27%20%3D%20R%20%2F255*/
+h4{
+    color:hsl(250,70.4%,21.2%);
+}
+/*Container Content*/
